@@ -5,6 +5,7 @@ import Pages.Hotels.homepage;
 import Utils.Sleep;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class homepageSD {
@@ -43,6 +44,11 @@ public class homepageSD {
         Sleep.sleep(1000);
         //hp.selectFromSearchField(input);
         hp.clickFirstAutoSuggestionElement();
+    }
+
+    @Then("^I verify is CHANGE DATES button displayed$")
+    public void isButtonDisplayed(){
+        hp.isButtonDisplayed();
     }
 
 

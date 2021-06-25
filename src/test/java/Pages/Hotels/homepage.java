@@ -30,14 +30,15 @@ public class homepage extends WebCommands {
 
     By couponFlayer_X_button = By.xpath("//div[@role='dialog']//button[@aria-label='Close overlay']");
 
+    By changeDatesButton = By.xpath("//button[contains(text(),'Change dates')]");
+
 
 
     //      Methods
 
     public boolean isCouponDisplayed(){
         Sleep.sleep(1000);
-        isElementDisplayed(couponFlayer);
-        return true;
+        return isElementDisplayed(couponFlayer);
     }
     public void closeCouponFlayer(){
         Sleep.sleep(1000);
@@ -80,6 +81,13 @@ public class homepage extends WebCommands {
 
     public void clickFirstAutoSuggestionElement(){
         clickThis(firstAutoSuggestionElement);
+    }
+
+    public void isButtonDisplayed(){
+        if(!isElementDisplayed(changeDatesButton)){
+            //scrollToElement(getElement(changeDatesButton));
+            scrollToBottom();
+        }
     }
 
 
