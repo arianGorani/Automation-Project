@@ -3,7 +3,7 @@ Feature: Create Account Non-Tax State by Zip Code
 
   Scenario Outline: User can create a new teacher account in non-taxable state using Zip Code
     Given I launch scholastic.com
-    When I click on Create An Account
+    When I click Get Started and Create An Account
     And I select Teacher account
     And I click NEXT
     And I select 'Mr.' from Dropdown
@@ -31,4 +31,4 @@ Feature: Create Account Non-Tax State by Zip Code
 
     Examples:
       | firstName | lastName | email | password | zipCode | studentNumber |
-      | Hello     |   World  | 11test2021-nonTaxState@schlastic.com |  hello123  | 99518 | 5 |
+      | Hello     |   World  | 6test2022-nonTaxState@schlastic.com |  hello123  | 99518 | 5 |

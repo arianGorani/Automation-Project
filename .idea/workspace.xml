@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a220c89a-7359-46cb-b12d-a05576fab260" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DriverWrapper/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverWrapper/Web.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/WebCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/WebCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/myLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/myLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/searchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/searchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/yourTeacherOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/yourTeacherOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/homepageSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/homepageSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/myListsSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/myListsSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/signInSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/Scholastic/signInSD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateAccountNonTaxState.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateAccountNonTaxState.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateAccountStateSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateAccountStateSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateAccountZipCode.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateAccountZipCode.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DeleteItemCartPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DeleteItemCartPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Hotels/ChangeDateButtonDisplayed.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Hotels/ChangeDateButtonDisplayed.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Hotels/Past_date-Back_button.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Hotels/Past_date-Back_button.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Hotels/UpdateGuestsLandingPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Hotels/UpdateGuestsLandingPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ListFromQuickView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ListFromQuickView.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Non-zeroTax-SFO-YTO.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Non-zeroTax-SFO-YTO.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ZeroTax-SFO-Order.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ZeroTax-SFO-Order.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +62,23 @@
       <recent name="StepDefinition.Scholastic" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User can create a new teacher account in non-taxable state using Zip Code">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Utils.Solution" />
-      <module name="Automation-Project" />
+  <component name="RunManager" selected="Application.codeTest">
+    <configuration name="arian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.arian" />
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.arian" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ariii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.ariii" />
+      <module name="testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Utils.*" />
@@ -65,9 +89,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="class2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Utils.class2" />
-      <module name="Automation-Project" />
+    <configuration name="codeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.codeTest" />
+      <module name="testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Utils.*" />
@@ -78,9 +102,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="class3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Utils.class3" />
-      <module name="Automation-Project" />
+    <configuration name="ernest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.ernest" />
+      <module name="testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Utils.*" />
@@ -91,42 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can create a new teacher account in non-taxable state using Zip Code" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateAccountNonTaxState.feature" />
-      <option name="GLUE" value="DriverWrapper StepDefinition.Scholastic" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Automation-Project" />
-      <option name="NAME_FILTER" value="^User can create a new teacher account in non\-taxable state using Zip Code$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User can create a new teacher account in non\-taxable state using Zip Code$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can create a new teacher account in non-taxable state using Zip Code" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <configuration name="summ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.summ" />
+      <module name="testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation-Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User can create a new teacher account in non-taxable state using Zip Code" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.class2" />
-        <item itemvalue="Application.class3" />
+        <item itemvalue="Application.codeTest" />
+        <item itemvalue="Application.ernest" />
+        <item itemvalue="Application.summ" />
+        <item itemvalue="Application.ariii" />
+        <item itemvalue="Application.arian" />
       </list>
     </recent_temporary>
   </component>

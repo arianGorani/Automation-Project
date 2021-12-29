@@ -306,7 +306,7 @@ public class WebCommands extends Web {
     }
 
     /**
-     * Method to get all window handles
+     * Method to get the current window handle
      * Input:
      * Return type: Set<String>
      */

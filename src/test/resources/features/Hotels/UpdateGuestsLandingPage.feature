@@ -1,4 +1,4 @@
-@regression
+#@regression
 Feature: Update Guests on Landing Page
 
   Scenario: Verify user can update number of guests on Landing page

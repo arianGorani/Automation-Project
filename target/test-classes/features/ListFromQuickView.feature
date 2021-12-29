@@ -10,7 +10,6 @@ Feature: List from Quick View
     And I click on Recommendation to Students checkbox
     And I close two windows 'Add to My Lists' and 'Quick Look'
     And I click My Lists from Home Page
-    And I click Recommendations for Students
     Then I Verify the item is added in Recommendations to Students Lists under My Lists
 
     Examples:

@@ -11,8 +11,8 @@ public class myListsSD {
 
     myLists myList = new myLists();
 
-    String bookName = sResPage.bookTitle;
-    String bookNamePDP = sResPage.bookTitle1;
+//    String bookName = sResPage.bookTitle;
+//    String bookNamePDP = sResPage.bookTitle1;
 
     @Then("^I Verify the item is added in Recommendations to Students Lists under My Lists$")
     public void verifyTheItemsAreAddedInList(){
@@ -20,11 +20,11 @@ public class myListsSD {
 
         boolean containsTitle = false;
 
-        System.out.println("Book title: " + bookName);
-        System.out.println("Book title PDP: " + bookNamePDP);
+        System.out.println("Book title: " + sResPage.bookTitle);
+        System.out.println("Book title PDP: " + sResPage.bookTitle1);
 
         for (String element : myList.listOfBookTitles)
-            if (element.equalsIgnoreCase(bookNamePDP)) {
+            if (element.equalsIgnoreCase(sResPage.bookTitle1)) {
                 containsTitle = true;
             }
 

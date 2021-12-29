@@ -1,3 +1,4 @@
+#@regression
 Feature: Change Date Button Displayed
 
   Scenario: Verify CHANGE DATES button is displayed at the end of search results

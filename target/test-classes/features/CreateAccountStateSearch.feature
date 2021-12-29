@@ -3,7 +3,7 @@ Feature: Create Account State Search
 
   Scenario Outline: User can create a new teacher account in taxable state using School Search
     Given I launch scholastic.com
-    When I click on Create An Account
+    When I click Get Started and Create An Account
     And I select Teacher account
     And I click NEXT
     And I select 'Mr.' from Dropdown
@@ -33,4 +33,4 @@ Feature: Create Account State Search
 
     Examples:
       | firstName | lastName | email | password | city | schoolName | studentNumber |
-      | Hello     |   World  | 11test2021-@sch.com |  hello123  | New York | Scholastic+Book+Clu | 5 |
+      | Hello     |   World  | 6test2021-@sch.com |  hello123  | New York | Scholastic+Book+Clu | 5 |

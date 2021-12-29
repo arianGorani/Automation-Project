@@ -1,4 +1,4 @@
-@regression
+#@regression
 Feature: Past date and Back Button
 
   Scenario: Verify past date and back button on Current month's calendar is disabled

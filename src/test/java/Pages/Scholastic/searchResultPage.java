@@ -19,9 +19,9 @@ public class searchResultPage extends WebCommands {
 
     By X_buttonFromQuickLookWindow = By.xpath("//button[text()='Close']");
 
-    By nameOfTheBook = By.xpath("//h1[@class='product-name']");
+    By nameOfTheBook = By.xpath("//h1[@class='product-name']//a");
 
-    By nameOfTheBookPDP = By.xpath("//ul[@id='search-result-items']//li[@class='grid-tile new-row'][1]//div//div[@class='product-tile-name']//a");
+    By nameOfTheBookPDP = By.xpath("//ul[@id='search-result-items']//li[@class='grid-tile new-row'][1]//div//div[@class='product-tile-name']");
 
 
 

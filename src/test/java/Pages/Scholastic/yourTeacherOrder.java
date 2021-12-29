@@ -9,13 +9,13 @@ public class yourTeacherOrder extends WebCommands {
 
     //      Locators
 
-    By PriceQtyBoxNr4 =  By.xpath("//input[@data-itemid='4S8']");
+    By PriceQtyBoxNr4 =  By.xpath("//input[@data-itemid='1S2']");
 
-    By PriceQtyBoxNr6 =  By.xpath("//input[@data-itemid='6S8']");
+    By PriceQtyBoxNr6 =  By.xpath("//input[@data-itemid='3S2']");
 
-    By PriceQtyBoxNr8 =  By.xpath("//input[@data-itemid='8S8']");
+    By PriceQtyBoxNr8 =  By.xpath("//input[@data-itemid='8S2']");
 
-    By PriceQtyBoxNr2 =  By.xpath("//input[@data-itemid='2S8']");
+    By PriceQtyBoxNr2 =  By.xpath("//input[@data-itemid='2S2']");
 
     By jumperBox =  By.xpath("//div[@id='info-student-flyer-order-fee']");
 

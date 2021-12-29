@@ -3,7 +3,7 @@ Feature: Create Account by Zip Code
 
   Scenario Outline: User can create a new teacher account in taxable state using Zip Code
     Given I launch scholastic.com
-    When I click on Create An Account
+    When I click Get Started and Create An Account
     And I select Teacher account
     And I click NEXT
     And I select 'Mr.' from Dropdown
@@ -32,6 +32,6 @@ Feature: Create Account by Zip Code
 
     Examples:
       | firstName | lastName | email | password | zip code | schoolName | studentNumber |
-      | Hello     |   World  | 11test2021-test@gmail.com |  hello123  | 10012 | Scholastic+Book+Clu | 5 |
+      | Hello     |   World  | 6btest2021-test@gmail.com |  hello123  | 10012 | Scholastic+Book+Clu | 5 |
 
 

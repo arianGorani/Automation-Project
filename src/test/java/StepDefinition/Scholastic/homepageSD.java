@@ -15,9 +15,10 @@ public class homepageSD {
         hp.lunchWebsite();
     }
 
-    @When("^I click on Create An Account$")
+    @When("^I click Get Started and Create An Account$")
     public void clickCreateAnAccount(){
-        hp.clickCreateAccount();
+        hp.clickGetStarted();
+        hp.clickCreateAnAccount();
     }
 
 
@@ -33,15 +34,16 @@ public class homepageSD {
 
     @When("^I search for '(.*)'$")
     public void typeInSearchBar(String input){
+        hp.clickSearchBar();
         hp.typeInSearchBar(input);
-        hp.clickMyAccountDropdown();
         hp.clickSearchButton();
     }
 
     @When("^I click My Lists from Home Page$")
     public void clickMyListsDropDown(){
+        hp.clickHomePage();
         Sleep.sleep(1000);
-        hp.clickMyListDropDown();
+        hp.clickMyList();
     }
 
     @When("^I click Recommendations for Students$")

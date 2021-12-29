@@ -14,7 +14,7 @@ public class Web {
 
     private static WebDriver driver;
 
-    @Before
+    //@Before
     public void openUrl() {
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
         driver = new ChromeDriver();

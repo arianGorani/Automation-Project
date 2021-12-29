@@ -13,6 +13,7 @@ public class signInSD {
 
     @And("^I log In with email '(.*)' and password '(.*)'$")
     public void clickSignIn(String email, String pass){
+        hp.clickGetStarted();
         hp.clickSignIn();
         signIn.switchToSignInIframe();
         signIn.typeEmailInSignIn(email);

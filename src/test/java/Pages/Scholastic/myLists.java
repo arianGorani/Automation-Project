@@ -26,6 +26,7 @@ public class myLists extends WebCommands {
             listOfBookTitles.add(elem);
         }
         System.out.println("Recommendations to Students Lists\n" + listOfBookTitles);
+        System.out.println(listOfBookTitles.size());
     }
 
 

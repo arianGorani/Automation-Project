@@ -12,19 +12,25 @@ public class homepage extends WebCommands {
 
     //  Locators
 
-    By createAnAccount = By.xpath("//div[@id='navLinksOnly']/ancestor::li/a");
+    By getStarted = By.xpath("(//div[@id='navLinksOnly']/ancestor::li/a)[1]");
 
-    By SignIn = By.xpath("//div[@id='navLinksOnly']/ancestor::li/preceding-sibling::li//a");
+    By createAnAccount = By.xpath("(//div[@id='navLinksOnly']/ancestor::li/a)[2]");
 
-    By MyAccountDropDown = By.xpath("//a//span[@class='hide-mobile user-account-name']");
+    By SignIn = By.xpath("((//div[@class='toggle-content'])[1]//ul//li//a[contains(text(),'Sign In')])[1]");
 
-    By ProfileFromDropDown = By.xpath("//a[@title='Profile' and contains(text(), 'Profile')]");
+    By MyAccountDropDown = By.xpath("//a[@class='firstname toggle-item']");
 
-    By searchBar = By.xpath("//input[@class='custom-placeholder valid']");
+    By ProfileFromDropDown = By.xpath("(//a[@title='Profile' and contains(text(), 'Profile')])[2]");
 
-    By searchButton = By.xpath("//a[@class='checkicon custom-tooltip tooltipstered']/following-sibling::button[@type='submit']//i");
+    By searchBar = By.xpath("//a[@id='header-search-open']//img");
 
-    By MyListDropDown = By.xpath("//span[contains(text(),'My Lists')]");
+    By searchBarType = By.xpath("//input[@id='q']");
+
+    By searchButton = By.xpath("(//input[@id='q']/following::button)[1]");
+
+    By HomePage = By.xpath("(//a[@title='Scholastic Home']//img)[1]");
+
+    By MyList = By.xpath("//a[contains(text(),'items')]");
 
     By recommendationsForStudents = By.xpath("//li[@class='recommend']");
 
@@ -47,7 +53,11 @@ public class homepage extends WebCommands {
         web.openUrl2("https://clubs3qa1.scholastic.com/");
     }
 
-    public void clickCreateAccount(){
+    public void clickGetStarted(){
+        clickThis(getStarted);
+    }
+
+    public void clickCreateAnAccount(){
         clickThis(createAnAccount);
     }
 
@@ -66,9 +76,13 @@ public class homepage extends WebCommands {
         clickThis(ProfileFromDropDown);
     }
 
+    public void clickSearchBar(){
+        clickThis(searchBar);
+        Sleep.sleep(1000);
+    }
 
     public void typeInSearchBar(String input){
-        type(searchBar,input);
+        type(searchBarType,input);
         Sleep.sleep(1000);
     }
 
@@ -77,8 +91,13 @@ public class homepage extends WebCommands {
         Sleep.sleep(1000);
     }
 
-    public void clickMyListDropDown(){
-        clickThis(MyListDropDown);
+    public void clickHomePage(){
+        clickThis(HomePage);
+        Sleep.sleep(1000);
+    }
+
+    public void clickMyList(){
+        clickThis(MyList);
         Sleep.sleep(1000);
     }
 
