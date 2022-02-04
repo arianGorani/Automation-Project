@@ -24,7 +24,7 @@ Feature: Delete item on cart page
 
     Examples:
       | email | password |
-      | happy.world@gmail.com | happyworld2021 |
+      | 2022Test-nonTaxState@schlastic.com | hello123 |
 
 
 
