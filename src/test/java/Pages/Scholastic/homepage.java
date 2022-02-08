@@ -44,7 +44,7 @@ public class homepage extends WebCommands {
     //  Methods
 
     public void lunchWebsite(){
-        web.openUrl2("https://clubs3qa1.scholastic.com/");
+        web.openUrl2("https://clubs.scholastic.com/");
     }
 
     public void clickCreateAccount(){

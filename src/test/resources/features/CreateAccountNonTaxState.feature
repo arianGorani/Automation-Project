@@ -31,4 +31,4 @@ Feature: Create Account Non-Tax State by Zip Code
 
     Examples:
       | firstName | lastName | email | password | zipCode | studentNumber |
-      | Hello     |   World  | 11test2021-nonTaxState@schlastic.com |  hello123  | 99518 | 5 |
+      | Hello     |   World  | 0test2022-nonTaxState@schlastic.com |  hello123  | 99518 | 5 |

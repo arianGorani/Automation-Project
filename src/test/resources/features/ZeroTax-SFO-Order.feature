@@ -23,4 +23,4 @@ Feature: Zero Tax for SFO order
 
     Examples:
       | email | password |
-      | newyork@sch.com | hello123 |
+      | 0test2022-nonTaxState@schlastic.com | hello123 |
