@@ -32,10 +32,7 @@ Feature: Create Account by Zip Code
 
     Examples:
       | firstName | lastName | email | password | zip code | schoolName | studentNumber |
-<<<<<<< HEAD
-      | Hello     |   World  | 12022Test-zipTaxState@schlastic.com  |  hello123  | 10012 | Scholastic+Book+Clu | 5 |
-=======
       | Hello     |   World  | test2022-test@gmail.com |  hello123  | 10012 | Scholastic+Book+Clu | 5 |
->>>>>>> test_brench
+
 
 

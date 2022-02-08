@@ -11,8 +11,5 @@ Feature: Three CC
 
     Examples:
       | email | password |
-<<<<<<< HEAD
-      | 2022Test-nonTaxState@schlastic.com | hello123 |
-=======
       | 0test2022-nonTaxState@schlastic.com | hello123 |
->>>>>>> test_brench
+
