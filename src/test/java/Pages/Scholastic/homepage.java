@@ -51,10 +51,13 @@ public class homepage extends WebCommands {
 
     public void lunchWebsite(){
         web.openUrl2("https://clubs.scholastic.com/");
+<<<<<<< HEAD
     }
 
     public void clickGetStarted(){
         clickThis(getStarted);
+=======
+>>>>>>> test_brench
     }
 
     public void clickCreateAnAccount(){

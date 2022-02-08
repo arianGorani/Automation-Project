@@ -33,4 +33,8 @@ Feature: Create Account State Search
 
     Examples:
       | firstName | lastName | email | password | city | schoolName | studentNumber |
+<<<<<<< HEAD
       | Hello     |   World  | 12022Test-TaxState@schlastic.com  |  hello123  | New York | Scholastic+Book+Clu | 5 |
+=======
+      | Hello     |   World  | test2022-@sch.com |  hello123  | New York | Scholastic+Book+Clu | 5 |
+>>>>>>> test_brench
